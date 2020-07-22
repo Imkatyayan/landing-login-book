@@ -1,0 +1,56 @@
+{
+  "client": [
+    "/assets/vendors.chunk.js",
+    "/assets/client.js"
+  ],
+  "home": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~book~home~login.chunk.js",
+    "/assets/vendors~book~home.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/book~home.chunk.js",
+    "/assets/home.chunk.js"
+  ],
+  "login": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~book~home~login.chunk.js",
+    "/assets/vendors~book~login.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/login.chunk.js",
+    "/assets/login.3155a4546cb40ea44734.hot-update.js"
+  ],
+  "register": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/register.chunk.js"
+  ],
+  "book": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~book~home~login.chunk.js",
+    "/assets/vendors~book~home.chunk.js",
+    "/assets/vendors~book~login.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/book~home.chunk.js",
+    "/assets/book.chunk.js"
+  ],
+  "about": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about.chunk.js"
+  ],
+  "privacy": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/privacy.chunk.js"
+  ],
+  "admin": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/admin.chunk.js"
+  ],
+  "not-found": [
+    "/assets/vendors~about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/about~admin~book~home~login~not-found~privacy~register.chunk.js",
+    "/assets/not-found.chunk.js"
+  ]
+}
