@@ -1,0 +1,28 @@
+.fieldSearch
+{
+     margin-left: 20% !important;
+     width: 60% !important;
+     font-size: 35px !important;
+     position: relative;
+     border-radius: 20px;
+} 
+.fieldSearch fieldset
+{
+     border-radius: 15px;
+} 
+#free-solo-2-demo:focus{
+    width:900px;
+    transform: translateY("-50%");
+    z-index: 10;
+}
+.fieldSearch:focus body{
+    min-height: 100%;
+    box-shadow: inset 2000px 0 0 0 rgba(255,255,255,0.8) ;
+    z-index:1;
+}
+.icon{
+    position:absolute;
+    size: 35px;
+    top:30px;
+    left:280;
+}

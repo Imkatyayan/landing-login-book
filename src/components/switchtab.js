@@ -58,7 +58,7 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="default">
+      <AppBar position="static" color="default" style={{ backgroundColor: "transparent", marginLeft: "14%", width: "72%" }}>
         <Tabs
           value={value}
           onChange={handleChange}

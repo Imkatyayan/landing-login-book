@@ -11,16 +11,18 @@ import useStyles from 'isomorphic-style-loader/useStyles'
 import React from 'react'
 import PropTypes from 'prop-types'
 import s from './Home.css'
-import MenuAppBar from '../../components/navbar'
-import SearchBar from '../../components/searchbar'
-import Card from '../../components/cardGrid'
+import MenuAppBar from '../../components/navbarHome'
+import SearchBar from '../../components/searchBarHome'
+import Card from '../../components/tabs'
 import Ll from '../../components/list1'
+import Carasul from '../../components/carousel'
 export default function Home ({ news }) {
   useStyles(s)
   return (
-    <div>
-      <MenuAppBar />
+    <div >
+      <MenuAppBar  />
       <SearchBar />
+      <Carasul/>
       <Card/>
       <Ll/>
     </div>

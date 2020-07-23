@@ -9,11 +9,12 @@
 
 import useStyles from 'isomorphic-style-loader/useStyles'
 import React from 'react'
-import PropTypes from 'prop-types'
 import s from './Book.css'
 import MenuAppBar from '../../components/navbar'
 import SearchBar from '../../components/searchbar'
 import Ll from '../../components/list1' 
+import Card from '../../components/tabs'
+import Carasul from '../../components/carousel'
 import ScrollableTabsButtonAuto from '../../components/switchtab'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
@@ -21,7 +22,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Button from '@material-ui/core/Button';
-import loginImg from "./cover-book.png";
+import loginImg from "./cover-book0.jpg";
 
 const UseStyless = makeStyles((theme) => ({
   root: {
@@ -31,12 +32,13 @@ const UseStyless = makeStyles((theme) => ({
 	 
     padding: theme.spacing(5),
     margin: 'auto',
-    maxWidth: 500,
+	  maxHeight: 'auto',
+    maxWidth:500,
 	 
   },
   image: {
-    width: 500,
-    height: 400,
+    width: 'auto',
+    height: 'auto',
   },
   img: {
     margin: 'auto',
@@ -55,7 +57,7 @@ export default function Book ({ title }) {
 	    <MenuAppBar/>
 	    
 	     <SearchBar />
-       <Paper className={classes.paper}>
+       <Paper className={classes.paper} style={{marginTop:"50px"}}>
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
@@ -109,8 +111,9 @@ export default function Book ({ title }) {
 	  <br/>
     </div>
 	  <br/>
+		   
 		<br/>
-	  <Ll/>
+	 <Ll/>
 	  </div>
   )
 }

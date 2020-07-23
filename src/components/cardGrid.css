@@ -1,0 +1,32 @@
+.noScroll{
+    margin-left: -55px;
+    overflow-x: hidden  !important;
+}
+.moveRight {
+    position: absolute;
+    right:0;
+    transform:translateY(250%);
+    z-index:15;
+    background-color: transparent;
+    color:transparent;
+    font-size: 30px;
+}
+.moveRight:hover{
+   background-color: rgba(151, 142, 142,0.8);
+   opacity: 0.5;
+   color: #000000;
+}
+.moveLeft {
+    position: absolute;
+    left:0;
+    transform:translateY(250%);
+    z-index:15;
+    background-color: transparent;
+    color:transparent;
+    font-size: 30px;
+}
+.moveLeft:hover{
+   background-color: rgba(151, 142, 142,0.8);
+   opacity: 0.5;
+   color: #000000;
+}

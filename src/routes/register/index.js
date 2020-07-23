@@ -9,7 +9,7 @@
 
 import React from 'react'
 import Layout from '../../components/Layout'
-import Register from './Register'
+import Register from './App'
 
 const title = 'New User Registration'
 
@@ -18,9 +18,7 @@ function action () {
     chunks: ['register'],
     title,
     component: (
-      
-        <Register title={title} />
-    
+        <Register />
     )
   }
 }

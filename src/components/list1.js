@@ -44,7 +44,12 @@ export default function InteractiveList() {
         <div className={classes.root} style={{ backgroundColor: "#f4f3f3" }}>
            
             <Grid container spacing={2}>
-                <Grid item xs={12} md={4}>
+                <Grid md={1}>
+
+                </Grid>
+                <Grid md={10}>
+                    <Grid container spacing={2}>
+                <Grid item xs={12} md={3}>
                     <Typography variant="h6" className={classes.title}>
                         Information
           </Typography>
@@ -196,7 +201,10 @@ We are committed to quality production, thought provoking contents and highest s
           </Typography>
                 </Grid>
             </Grid>
-            
+        </Grid>
+        <Grid md={1}>
+        </Grid>
+        </Grid>
         </div>
     );
 }

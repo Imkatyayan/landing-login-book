@@ -1,4 +1,3 @@
-
 /**
  * React Starter Kit (https://www.reactstarterkit.com/)
  *
@@ -24,9 +23,8 @@ async function action ({ fetch }) {
     title: 'React Starter Kit',
     chunks: ['home'],
     component: (
-      
-        <Home news={data.news} />
-      
+          <Home/>
+
     )
   }
 }

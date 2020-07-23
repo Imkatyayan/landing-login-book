@@ -2,31 +2,31 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Mag from "./magezine"
+import Mag from "./magezine";
+import s from './popover.css';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
     },
     paper: {
-        padding: theme.spacing(4, 10),
+        padding: theme.spacing(0, 12),
         textAlign: 'center',
         color: theme.palette.text.secondary,
-
+        marginY: theme.spacing(0),
     },
+
 }));
 
 export default function CenteredGrid() {
     const classes = useStyles();
+    const st = useStyles(s);
 
     return (
-        <div className={classes.root} width="100%" overrflow="hidden  !important">
+        <div className={classes.root} style={{ overflow: 'hidden' }}>
             <Grid container spacing={5} >
                 <Grid item xs={3}>
                     <Paper className={classes.paper} elevation={0}>5th Dean Science Committe</Paper>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper} elevation={0}>5th Dean As Per Committe</Paper>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper} elevation={0}>Agribusiness</Paper>
@@ -39,9 +39,6 @@ export default function CenteredGrid() {
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper} elevation={0}>Agroforestry</Paper>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper} elevation={0}>Agrometerology, Remote Sensing and Gis</Paper>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper} elevation={0}>Agronomy</Paper>

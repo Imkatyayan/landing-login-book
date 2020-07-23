@@ -6,14 +6,11 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-import Switch from '@material-ui/core/Switch';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormGroup from '@material-ui/core/FormGroup';
-import MenuItem from '@material-ui/core/MenuItem';
-import Menu from '@material-ui/core/Menu';
-import './navBar.css'
+import s from'./navBar.css';
 import MouseOverPopover from './popover'
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import {Link,Router} from 'react-router-dom';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,15 +25,17 @@ const useStyles = makeStyles((theme) => ({
     },
     menuOptn:{
     border: 0,
-    borderRadius: 3,
     color: 'black',
     height: 40,
-    padding: '0 40px',
+    padding: '0 4px',
+    margin:'0 5px',
+    fontWeight:'400'
     },
 }));
 
 export default function MenuAppBar() {
     const classes = useStyles();
+    const st= useStyles(s);
     const [auth, setAuth] = React.useState(true);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -52,32 +51,33 @@ export default function MenuAppBar() {
     const handleClose = () => {
         setAnchorEl(null);
     };
-
     return (
         <div className={classes.root}>
-            <FormGroup>
-                <FormControlLabel
-                    control={<Switch checked={auth} onChange={handleChange} aria-label="login switch" />}
-                    label={auth ? 'Logout' : 'Login'}
-                />
-            </FormGroup>
-            <AppBar position="static" elevation={0} width={"110%"} style={{ backgroundColor: "white", margin: '0px 10px 0px 10px'}}>
+            {/* <FormGroup>
+        //         <FormControlLabel
+        //             control={<Switch checked={auth} onChange={handleChange} aria-label="login switch" />}
+        //             label={auth ? 'Logout' : 'Login'}
+        //         /> */}
+            {/* </FormGroup> */}
+            <AppBar position="static" elevation={0} width={"110%"} style={{ backgroundColor: "transparent", margin: '0px -11px'}}>
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuButton} aria-label="menu">
-                        <MenuIcon />
+                       
                     </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                    AGROBIOS ONLINE
+                    <Typography variant="h6" className={classes.title} style={{marginLeft:'20px'}}>
+                    AGRO ACADEMICS
                     </Typography>
-                    <MouseOverPopover/>
-                    <Button className={classes.menuOptn}>Magazines</Button>
-                    <Button className={classes.menuOptn}>News</Button>
-                    <Button className={classes.menuOptn}>Downloads</Button>
-                    <Button className={classes.menuOptn}>E-Catalogues</Button>
-                    <Button className={classes.menuOptn}>Distributor</Button>
+                    <MouseOverPopover />
+                    <Button className={classes.menuOptn}style={{  width: "10%"}}>Magazines</Button>
+                    <Button className={classes.menuOptn}style={{ width: "10%"}}>News</Button>
+                    <Button className={classes.menuOptn}style={{  width: "10%"}}>Downloads</Button>
+                    <Button className={classes.menuOptn}style={{  width: "20%"}}>E-Catalogues</Button>
+                    <Button className={classes.menuOptn} style={{ marginRight: '10%', width: "10%"}}>Distributor</Button>
 
-                    {auth && (
-                        <div>
+                     <Button style={{ backgroundColor: "#dfdfdf", borderRadius: "10px", fontSize: "14px", height: "40px", width: "10%", align: "center", marginLeft: '10px',marginRight:'50px',color:'black',fontWeight:'400'}}> 
+                         Login &nbsp;  <ArrowForwardIosIcon style={{ fontSize: 15 }} /></Button>
+                    {/* {auth && (
+                        <divLeft
                             <IconButton
                                 aria-label="account of current user"
                                 aria-controls="menu-appbar"
@@ -106,7 +106,7 @@ export default function MenuAppBar() {
                                 <MenuItem onClick={handleClose}>My account</MenuItem>
                             </Menu>
                         </div>
-                    )}
+                    )} */}
                 </Toolbar>
             </AppBar>
         </div>

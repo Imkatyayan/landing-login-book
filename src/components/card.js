@@ -1,69 +1,53 @@
-
-
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import useStyles from 'isomorphic-style-loader/useStyles'
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
+import s from './card.css';
 
-const useStyles = makeStyles((theme) => ({
+const usestyles = makeStyles({
     root: {
-        display: 'flex',
+        maxWidth: 345,
     },
-    details: {
-        display: 'flex',
-        flexDirection: 'column',
-    },
-    content: {
-        flex: '1 0 auto',
-    },
-    cover: {
-        width: 200,
-    },
-    controls: {
-        display: 'flex',
-        alignItems: 'center',
-        paddingLeft: theme.spacing(1),
-        paddingBottom: theme.spacing(1),
-    },
-    playIcon: {
-        height: 38,
-        width: 38,
-    },
-}));
+});
 
-export default function MediaControlCard() {
-    const classes = useStyles();
-    const theme = useTheme();
-
+export default function ImgMediaCard() {
+   useStyles(s);
     return (
-        <Card className={classes.root}>
-            <div className={classes.details}>
-                <CardContent className={classes.content}>
-                    <Typography component="h6" variant="h6">
+        <Card className={s.cardback} >
+            <CardActionArea>
+                < img src="http://agrobiosonline.com/books_coverpages/06260908_685.jpg"
+                    alt="pic"
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h6">
+                       Elementary Botony
+                    </Typography>
+                    <Typography color="textSecondary">
+                        <p>
                         Elementary Botony
-          </Typography>
-                    <Typography variant="subtitle1" color="textSecondary">
-                        MRP 385/-
-          </Typography>
+                        </p>
+                        <p>
+                        MRP:345
+                        </p>
+                        <p>
+                           Authored By:Person1
+                        </p>
+                        <p>
+                            Released In: 2020
+                        </p>
+                    </Typography>
                 </CardContent>
-                <div className={classes.controls}>
-                   
-                </div>
-            </div>
-            <CardMedia
-                className={classes.cover}
-                image="http://agrobiosonline.com/books_coverpages/06260908_685.jpg"
-                title="Live from space album cover"
-            />
+            </CardActionArea>
         </Card>
     );
 }
+
 
 
 

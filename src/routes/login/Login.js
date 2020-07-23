@@ -71,8 +71,8 @@ const [value, setValue] = React.useState(0);
             </label>
           </div>
 	  <div className={s.formGroup}>
-         <a href="#">Forgot Passowrd ? </a> &emsp; &emsp; &nbsp; &nbsp; &nbsp; 
-	<a href="#">New User? Create Account</a> 
+         <a href="http://localhost:3000/forgetpass">Forgot Passowrd ? </a> &emsp; &emsp; &nbsp; &nbsp; &nbsp; 
+	<a href="http://localhost:3000/register">New User? Create Account</a> 
           </div>
           <div className={s.formGroup}>
             <button className={s.button} type="submit">
