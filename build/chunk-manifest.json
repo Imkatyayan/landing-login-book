@@ -4,62 +4,80 @@
     "/assets/client.js"
   ],
   "home": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~login~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~register.chunk.js",
-    "/assets/vendors~admin~home~register.chunk.js",
-    "/assets/vendors~admin~home.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/admin~home.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~login~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/admin~dashboard~home.chunk.js",
+    "/assets/dashboard~home.chunk.js",
     "/assets/home.chunk.js"
   ],
   "login": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~login~register.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~login~register.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/login.chunk.js"
   ],
   "register": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~login~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~register.chunk.js",
-    "/assets/vendors~admin~home~register.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~login~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~register.chunk.js",
+    "/assets/vendors~admin~register.chunk.js",
     "/assets/vendors~register.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/register.chunk.js"
   ],
   "Forget": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~login~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~register.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~login~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~register.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/Forget.chunk.js"
   ],
   "about": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/about.chunk.js"
   ],
+  "dashboard": [
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~login~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home.chunk.js",
+    "/assets/vendors~admin~dashboard~register.chunk.js",
+    "/assets/vendors~dashboard.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/admin~dashboard~home.chunk.js",
+    "/assets/dashboard~home.chunk.js",
+    "/assets/dashboard.chunk.js",
+    "/assets/dashboard.c43b6dbdc90d076e1de1.hot-update.js"
+  ],
   "privacy": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/privacy.chunk.js"
   ],
   "admin": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~login~register.chunk.js",
-    "/assets/vendors~Forget~admin~home~register.chunk.js",
-    "/assets/vendors~admin~home~register.chunk.js",
-    "/assets/vendors~admin~home.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~login~register.chunk.js",
+    "/assets/vendors~Forget~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home~register.chunk.js",
+    "/assets/vendors~admin~dashboard~home.chunk.js",
+    "/assets/vendors~admin~dashboard~register.chunk.js",
+    "/assets/vendors~admin~register.chunk.js",
     "/assets/vendors~admin.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/admin~home.chunk.js",
-    "/assets/admin.chunk.js",
-    "/assets/admin.cb3aba7f70b9d6c51bcc.hot-update.js"
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/admin~dashboard~home.chunk.js",
+    "/assets/admin.chunk.js"
   ],
   "not-found": [
-    "/assets/vendors~Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
-    "/assets/Forget~about~admin~home~login~not-found~privacy~register.chunk.js",
+    "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
+    "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/not-found.chunk.js"
   ]
 }

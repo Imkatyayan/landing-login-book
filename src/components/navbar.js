@@ -64,7 +64,7 @@ export default function MenuAppBar() {
                     <IconButton edge="start" className={classes.menuButton} aria-label="menu">
                        
                     </IconButton>
-                    <Typography variant="h6" className={classes.title} style={{marginLeft:'20px'}}>
+                    <Typography variant="h6" className={classes.title} style={{marginLeft:'10px'}}>
                     AGRO ACADEMICS
                     </Typography>
                     <MouseOverPopover />
