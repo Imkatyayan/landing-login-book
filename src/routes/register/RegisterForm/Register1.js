@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center"
   },
   content: {
-    padding: theme.spacing(1, 3, 5)
+    padding: theme.spacing(2, 3, 5)
   },
   buttonsContainer: {
     margin: theme.spacing(0, 0)

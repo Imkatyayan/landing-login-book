@@ -11,7 +11,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import Dashboard from './dashboard'
 
-const title = 'User Dashboard'
+const title = 'Dashboard'
 
 function action () {
   return {

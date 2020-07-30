@@ -1,7 +1,8 @@
 {
   "client": [
     "/assets/vendors.chunk.js",
-    "/assets/client.js"
+    "/assets/client.js",
+    "/assets/client.3f61caf8a42584453d44.hot-update.js"
   ],
   "home": [
     "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
@@ -26,8 +27,10 @@
     "/assets/vendors~Forget~admin~dashboard~home~register.chunk.js",
     "/assets/vendors~admin~dashboard~home~register.chunk.js",
     "/assets/vendors~admin~dashboard~register.chunk.js",
+    "/assets/vendors~dashboard~register.chunk.js",
     "/assets/vendors~admin~register.chunk.js",
     "/assets/vendors~register.chunk.js",
+    "/assets/vendors~register.3f61caf8a42584453d44.hot-update.js",
     "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/register.chunk.js"
   ],
@@ -50,12 +53,14 @@
     "/assets/vendors~admin~dashboard~home~register.chunk.js",
     "/assets/vendors~admin~dashboard~home.chunk.js",
     "/assets/vendors~admin~dashboard~register.chunk.js",
+    "/assets/vendors~dashboard~register.chunk.js",
     "/assets/vendors~dashboard.chunk.js",
+    "/assets/vendors~dashboard.3f61caf8a42584453d44.hot-update.js",
     "/assets/Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
     "/assets/admin~dashboard~home.chunk.js",
     "/assets/dashboard~home.chunk.js",
     "/assets/dashboard.chunk.js",
-    "/assets/dashboard.c43b6dbdc90d076e1de1.hot-update.js"
+    "/assets/dashboard.3f61caf8a42584453d44.hot-update.js"
   ],
   "privacy": [
     "/assets/vendors~Forget~about~admin~dashboard~home~login~not-found~privacy~register.chunk.js",
